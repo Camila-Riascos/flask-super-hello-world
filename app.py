@@ -7,4 +7,4 @@ def hello_world():
 
 @app.route('/welcome')
 def welcome():
-    return render_template ('welcome.html', user = request.orgs.get('username')
+    return render_template ('welcome.html', user = request.orgs.get('username') )
