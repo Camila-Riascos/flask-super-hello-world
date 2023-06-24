@@ -12,4 +12,4 @@ def welcome():
     return render_template('welcome.html', user=request.args.get('username'))
 
 
-appy.py
+
